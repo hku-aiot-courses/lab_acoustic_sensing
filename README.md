@@ -3,8 +3,8 @@
 Acoustic sensing utilize sound as the sensing modality. Soundwaves are passively or impassively sent and received by sound devices. Our main challenge is to extract the useful information from the signals. In our lab, you will learn to use soundwaves (FMCW) on a ranging task. To be exact, we will guide you to implement the algorithm which could detect the distance using acoustic signals.
 
 ## Signal Processing Basics (10 points)
-This part serves as a supplement for students without knowledge of signal processing. We will briefly introduce CFT, DFT and FFT with visualization. Further more, sampling, filters, windows and zero padding will be mentioned to enhance your understanding of signals. You are required to 
-- Implement function which will tell the relationship between sampling rate, bandwidth and resolution.
+This part serves as a supplement for students without knowledge of signal processing. We will briefly introduce CFT, DFT and FFT with visualization. Further more, sampling, windows and zero padding will be mentioned to enhance your understanding of signals. You are required to 
+- Implement `show_freq()` function which use FFT to get the frequencies of given signals.
 
 ## Play with sounds (15 points)
 In this section, we will introduce `sounddevice`, a Python module providing bindings for the PortAudio library and a few convenience functions to play and record NumPy arrays containing audio signals. You will learn how to interact with your on-device microphone and speakers. You are required to 
