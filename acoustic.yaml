@@ -1,4 +1,4 @@
-name: cpd
+name: acoustic
 channels:
   - conda-forge
   - defaults
@@ -24,7 +24,6 @@ dependencies:
   - xz=5.2.5=h1a28f6b_1
   - zlib=1.2.12=h5a0b063_2
   - pip:
-    - abc-classroom==0.1.9
     - alembic==1.8.1
     - ansiwrap==0.8.4
     - anyio==3.6.1
@@ -38,7 +37,6 @@ dependencies:
     - backcall==0.2.0
     - beautifulsoup4==4.11.1
     - bleach==5.0.1
-    - ca-certificates==2021.4.13
     - cffi==1.15.1
     - charset-normalizer==2.1.1
     - click==8.1.3
